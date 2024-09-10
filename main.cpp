@@ -48,14 +48,14 @@ int main()
 
     // Displaying the information and results.
     cout << "Movie Name: " << "" << movieName << "" << endl;
-    cout << "\nName of the Movie: " << "" << movieName << "" << endl;
-    cout << "Adult Tickets Sold: " << adult_tickets << endl;
-    cout << "Child Tickets Sold: " << child_tickets << endl;
+    cout << "\nName of the Movie: " << right << setw(13) << movieName << endl;
+    cout << "Adult Tickets Sold:  " << right << setw(13) << adult_tickets << endl;
+    cout << "Child Tickets Sold:  " << right << setw(13) << child_tickets << endl;
 
     cout << setprecision(2) << fixed << showpoint;
-    cout << "Gross Box Office Profit: $" << setw(10)  << grossprofit << endl;
-    cout << "Net Box Office Profit: $" << setw(10) << netProfit << endl;
-    cout << "Amount Paid to Distributor: $" << setw(10) << amountDistributor << endl;
+    cout << "Gross Box Office Profit:     $" << right << setw(10)  << grossprofit << endl;
+    cout << "Net Box Office Profit:       $" << right << setw(10) << netProfit << endl;
+    cout << "Amount Paid to Distributor:  $" << right << setw(10) << amountDistributor << endl;
 
     return 0;
 
