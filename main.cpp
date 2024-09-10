@@ -15,7 +15,8 @@ int main()
     double theaterPercentage = 0.20;
 
     // Variable that are going to be used in the program.
-    double movieName, adult_tickets, child_tickets;
+    string movieName;
+    double adult_tickets, child_tickets;
 
     // Displaying the purpose of this program
     cout << "This program calculates the Gross and Net Box Office Profit and the Distributer's Profit of a movie playing in the theater." << endl;
