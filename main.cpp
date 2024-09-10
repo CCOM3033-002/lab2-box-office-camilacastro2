@@ -15,14 +15,14 @@ int main()
     double theaterPercentage = 0.20;
 
     // Variable that are going to be used in the program.
-    double movie_name, adult_tickets, child_tickets;
+    double movieName, adult_tickets, child_tickets;
 
     // Displaying the purpose of this program
     cout << "This program calculates the Gross and Net Box Office Profit and the Distributer's Profit of a movie playing in the theater." << endl;
 
     // Asking the user what is the name of the movie they are watching.
     cout << "Enter the name of the movie: ";
-    getline(cin, movie_name) ;
+    getline(cin, movieName);
 
     // Asking the user how many adult tickets were sold; sold at $10.00.
     cout << "Enter the amount of adult tickets sold: ";
@@ -33,7 +33,7 @@ int main()
     cin >> child_tickets;
 
     // Displaying the name of the movie.
-    cout << "Movie Name: " << "" << movie_name << "" << endl;
+    cout << "Movie Name: " << "" << movieName << "" << endl;
 
     // Calculate the total tickets sold.
     double adultTotal = adultTicketPrice * adult_tickets; // Total adult tickets sold
@@ -50,7 +50,7 @@ int main()
 
     // Displaying the information and results.
     cout << setprecision(2) << fixed << showpoint;
-    cout << "\nName of the Movie: " << " " << movie_name << "" << endl;
+    cout << "\nName of the Movie: " << " " << movieName << "" << endl;
     cout << "Adult Tickets Sold: " << adult_tickets << endl;
     cout << "Child Tickets Sold: " << child_tickets << endl;
     cout << "Gross Box Office Profit: $" << grossprofit << endl;
