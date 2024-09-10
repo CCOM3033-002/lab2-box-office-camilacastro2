@@ -22,7 +22,7 @@ int main()
 
     // Asking the user what is the name of the movie they are watching.
     cout << "Enter the name of the movie: ";
-    getline(cin, movie_name);
+    getline(cin, movie_name) ;
 
     // Asking the user how many adult tickets were sold; sold at $10.00.
     cout << "Enter the amount of adult tickets sold: ";
@@ -46,7 +46,7 @@ int main()
     double netProfit = grossprofit * theaterPercentage;
 
     // Calculate the Amount Paid to the Distributor.
-    double amountDistributor = grossprofit - netProfit
+    double amountDistributor = grossprofit - netProfit;
 
     // Displaying the information and results.
     cout << setprecision(2) << fixed << showpoint;
