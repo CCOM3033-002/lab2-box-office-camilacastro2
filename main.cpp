@@ -47,10 +47,10 @@ int main()
     double amountDistributor = grossprofit - netProfit;
 
     // Displaying the information and results.
-    cout << "Movie Name: " << "" << movieName << "" << endl;
-    cout << "\nName of the Movie: " << right << setw(13) << movieName << endl;
-    cout << "Adult Tickets Sold:  " << right << setw(13) << adult_tickets << endl;
-    cout << "Child Tickets Sold:  " << right << setw(13) << child_tickets << endl;
+    cout << "Movie Name: \"" << right << setw(14) << movieName << "\"" << endl;
+    cout << "\nName of the Movie: " << right << setw(14) << movieName << endl;
+    cout << "Adult Tickets Sold:  " << right << setw(14) << adult_tickets << endl;
+    cout << "Child Tickets Sold:  " << right << setw(14) << child_tickets << endl;
 
     cout << setprecision(2) << fixed << showpoint;
     cout << "Gross Box Office Profit:     $" << right << setw(10)  << grossprofit << endl;
