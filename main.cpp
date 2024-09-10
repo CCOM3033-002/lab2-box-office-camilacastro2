@@ -51,10 +51,11 @@ int main()
     cout << "\nName of the Movie: " << "" << movieName << "" << endl;
     cout << "Adult Tickets Sold: " << adult_tickets << endl;
     cout << "Child Tickets Sold: " << child_tickets << endl;
+
     cout << setprecision(2) << fixed << showpoint;
-    cout << setw(10) << "Gross Box Office Profit: $" << grossprofit << endl;
-    cout << setw(10) << "Net Box Office Profit: $" << netProfit << endl;
-    cout << setw(10) << "Amount Paid to Distributor: $" << amountDistributor << endl;
+    cout << "Gross Box Office Profit: $" << setw(10)  << grossprofit << endl;
+    cout << "Net Box Office Profit: $" << setw(10) << netProfit << endl;
+    cout << "Amount Paid to Distributor: $" << setw(10) << amountDistributor << endl;
 
     return 0;
 
